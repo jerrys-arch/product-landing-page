@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#hero{
+    background: url(https://plus.unsplash.com/premium_photo-1664194583917-b0ba07c4ce2a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center/cover;
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    color:white;
+}
+#hero h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+#hero p{
+    margin-bottom: 35px;
+    font-size: 20px;
+}
+#hero a{
+    color:white;
+    background: rgb(30, 30, 237);
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight:bold;
+    border-radius: 5px;
+}
+.container{
+     display:block;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+.feature{
+   
+    display: inline-block;
+    width:22%;
+    text-align: center;
+    margin-left:20px;
+}
+
+  
+#features h2{
+    margin: 40px 0px;
+    font-size: 30px;
+}
+#features .feature{
+    padding:20px 0px;
+}
+#features h3{
+    font-size: 25px;
+    margin: 10px 0px;
+}
+#features p{
+    font-size: 20px;
+    color: rgb(193, 157, 102);
+}
+#features i{
+    color:rgb(30, 30, 237);
+}
+#testimonials{
+    padding: 30px 0px;
+    background: rgb(240, 239, 238);
+}
+#testimonials .testimonial p{
+   font-style: italic;
+   margin: 10px 0px;
+   font-weight: 600;
+}
+#testimonials .testimonial h4{
+    color:rgb(30, 30, 237);
+    font-size:23px;
+}
+
+.product-demo{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40px;
+}
+.product-demo p{
+    font-size: 22px;
+    margin-bottom:10px ;
+    font-weight: bold;
+}
+.product-demo ul li{
+    font-size: 20px;
+    padding:5px;
+    margin-bottom: 20px;
+}
+.image-container{
+  width:90%;
+  height:300px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.image-container img{
+  width:100%;
+  height: 100%;
+  object-fit: contain;
+}
+#pricing {
+    padding: 40px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.pricing-plan{
+ display: inline-block;
+ width: 28%;
+ background-color: #ccd1d8;
+ padding:30px;
+ border-radius: 10px;
+ margin:20px;
+}
+#pricing h2{
+margin-bottom: 15px;
+font-size: 30px;
+}
+.pricing-plan h3{
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.pricing-plan p{
+    font-size: 18px;
+    margin-bottom:20px ;
+}
+.pricing-plan a{
+    display: inline-block;
+    padding: 10px;
+    background: rgb(62, 62, 185);
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+ .pricing-plan a:hover{
+    background: blue;
+}
+#cta{
+    background:#007bff;
+    padding: 25px 0px;
+    color:white;
+}
+.container h2{
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+.container a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+   
+}
+.container a:hover{
+    background:#88b8eb;
+   
+}
+footer{
+    background: #343a40;
+    padding: 30px;
+    text-align: center;
+}
+.nav-footer{
+    margin:  10px;
+
+}
+.nav-footer a{
+    color:white;
+    text-decoration: none;
+    margin: 10px;
+}
+.nav-footer a:hover{
+    text-decoration: underline;
+}
+.social-media i{
+    color: white;
+    margin: 10px;
+}
+.social-media i:hover{
+    transform: scale(1.12);
+    box-shadow: 8px 8px 10px rgba(116, 105, 105, 0.4);
+}
+footer p{
+    color: white;
+    margin-top: 10px;
+}
+@media (max-width: 480px) {
+    #hero {
+        padding: 20px;
+    }
+
+    #hero h1 {
+        font-size: 28px;
+    }
+
+    #hero p {
+        font-size: 16px;
+    }
+
+    #hero a {
+        font-size: 16px;
+        padding: 12px 25px;
+    }
+
+    .feature {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    #features h2 {
+        font-size: 24px;
+    }
+
+    #features h3 {
+        font-size: 20px;
+    }
+
+    #features p {
+        font-size: 18px;
+    }
+
+    .product-demo {
+        margin-left: 0;
+    }
+
+    .pricing-plan {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    #pricing h2 {
+        font-size: 26px;
+    }
+
+    .pricing-plan h3 {
+        font-size: 20px;
+    }
+
+    .pricing-plan p {
+        font-size: 16px;
+    }
+
+    #cta {
+        padding: 15px 0;
+    }
+
+    .container h2 {
+        font-size: 24px;
+    }
+
+    .container a {
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    .nav-footer a {
+        font-size: 14px;
+    }
+
+    .social-media i {
+        margin: 8px;
+    }
+}
